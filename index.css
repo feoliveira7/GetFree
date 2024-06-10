@@ -1,0 +1,161 @@
+body{
+    background: rgb(23,35,68);
+background: linear-gradient(180deg, rgba(23,35,68,1) 0%, rgba(23,35,68,1) 15%, rgba(50,50,50,1) 49%, rgba(50,50,50,1) 64%, rgba(203,1,5,1) 100%);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(37, 37, 37);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    height: 5px;
+}
+
+.swal2-popup {
+    font-size: 1.0rem !important;
+    font-family: Raleway;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border-radius: 20px;
+  }
+
+.swal2-confirm.swal2-styled{
+    background-color: #e2e2e2;
+    color: #2e2e2e;
+   font-weight: 650;
+}
+
+.swal2-actions{
+    outline: none;
+}
+
+.logoIMG{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-left: -8px;
+}
+
+.topbar{
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    margin-left: -8px;
+    margin-top: -8px;
+    background-color: rgb(35, 53, 102);
+}
+.topbar1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.topbar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+.logoTXT{
+    display: flex;
+    font-family: Raleway;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.texto1{
+    display: flex;
+    margin-left: -180px;
+    font-size: 30px;
+    font-weight: 650;
+  
+    font-family: Raleway;
+    color: white;
+}
+
+.texto2{
+    display: flex;
+    justify-content: center;
+    font-family: Raleway;
+    color: white;
+}
+
+.imageButton{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.397);
+}
+
+.imageButton2{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+.botao1{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(37, 51, 92);
+    font-family: Raleway;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.397);
+    cursor: pointer;
+}
+
+.botao2{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(61, 61, 61);
+    font-family: Raleway;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.397);
+    cursor: pointer;
+}
+
+.botao3{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(204, 28, 28);
+    font-family: Raleway;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.397);
+    cursor: pointer;
+}
